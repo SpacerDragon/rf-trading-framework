@@ -1,0 +1,21 @@
+# Credentials and Environment
+.env
+.env.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Data, Models, and private configurations
+logs/
+*.joblib
+*.json
+config_5m.py
+config_15m.py
